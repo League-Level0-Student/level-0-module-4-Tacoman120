@@ -10,7 +10,12 @@ public class PiAloud {
 	 * If you are not sure, ask your teacher 
 	 * *****************/
 	boolean canPlaySounds = true;
-	
+	public static void main(String[] args) {
+		String Pi =  "3.1415926535897932384";
+		for(int g = 0; g<20; g++) {
+			System.out.println(Pi.charAt(g));
+		}
+	}
 	
 	// 1. Make a main method and make sure your program can run
 
